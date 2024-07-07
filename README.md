@@ -1,6 +1,6 @@
 # kind
-`Computer Vision Web Crawler "Be Kind, Please Rewind"` <br>
-"your mind is for having ideas... not holding them" - David Allen <br>
+`Computer Vision Web Crawler "Be Kind, Please Rewind"` <br><br>
+"your mind is for having ideas... not holding them" - David Allen <br><br>
 `Tailored from https://github.com/hank-ai/darknet/blob/master/README.md#windows-cmake-method`
 
 PowerShell (Admin)
