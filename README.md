@@ -3,8 +3,7 @@ Kinematic Video Detector Web Crawler "Be KinD, Please Rewind"
 
 TAILORED FROM https://github.com/hank-ai/darknet/blob/master/README.md#windows-cmake-method
 
-FROM POWERSHELL ADMINISTRATOR
-RUN EACH COMMAND LINE-BY-LINE
+In PowerShell (Admin)
 
 `winget install Git.Git` <br>
 `winget install Kitware.CMake` <br>
@@ -31,7 +30,7 @@ Run the following commands to install Microsoft VCPKG, which will then be used t
 `.\vcpkg.exe install opencv[contrib,dnn,freetype,jpeg,openmp,png,webp,world]:x64-windows pthreads:x64-windows` <br>
 
 
-Once all of the previous steps have finished successfully, you need to clone Darknet and build it. During this step we also need to tell CMake where vcpkg is located so it can find OpenCV and other dependencies:
+Once all of the previous steps have finished successfully, you need to clone Darknet and build it. During this step you also need to tell CMake where the vcpkg is located so it can find OpenCV and other dependencies:
 
 `cd c:\src` <br>
 `git clone https://github.com/hank-ai/darknet.git` <br>
@@ -42,7 +41,7 @@ Once all of the previous steps have finished successfully, you need to clone Dar
 `msbuild.exe "/property:Platform=x64;Configuration=Release" /target:Build -maxCpuCount -verbosity:normal -detailedSummary darknet.sln` <br>
 
 
-FROM ADMINISTRATOR: DEVELOPER POWERSHELL FOR VS 2022 Add msbuild.exe and darknet to PATH
+Add msbuild.exe and darknet to PATH
 
 `setx PATH "%PATH%;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin"` <br>
 `setx PATH "%PATH%;C:\src\darknet\"` <br>
@@ -51,6 +50,12 @@ FROM ADMINISTRATOR: DEVELOPER POWERSHELL FOR VS 2022 Add msbuild.exe and darknet
 `setx PATH "%path%;C:\opencv\build\x64\vc15\bin"` <br>
 
 
-To properly package up Darknet, the libraries, the include files, and the necessary DLLs, create the NSIS installation package like this: 	
+To properly package up the following:
+• Darknet
+• libraries
+• include files
+• DLLs
+
+Create the NSIS installation package with this: 	
 
 `msbuild.exe "/property:Platform=x64;Configuration=Release" PACKAGE.vcxproj` <br>
