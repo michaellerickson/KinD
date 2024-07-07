@@ -1,10 +1,8 @@
 # KinD
-Kinematic Video Detector Web Crawler "Be KinD, Please Rewind"
+`Kinematic Video Detector Web Crawler "Be KinD, Please Rewind"`
+`Tailored from https://github.com/hank-ai/darknet/blob/master/README.md#windows-cmake-method`
 
-TAILORED FROM https://github.com/hank-ai/darknet/blob/master/README.md#windows-cmake-method
-
-In PowerShell (Admin)
-
+PowerShell (Admin)
 ```
 winget install Git.Git
 winget install Kitware.CMake
@@ -17,9 +15,7 @@ Check .NET desktop development
 Check Desktop development with C++
 Choose `Modify`
 
-
 Run the following commands to install Microsoft VCPKG, which will then be used to build OpenCV:
-
 ```
 cd c:\
 mkdir c:\src
@@ -30,10 +26,9 @@ bootstrap-vcpkg.bat
 .\vcpkg.exe integrate install
 .\vcpkg.exe integrate powershell
 .\vcpkg.exe install opencv[contrib,dnn,freetype,jpeg,openmp,png,webp,world]:x64-windows pthreads:x64-windows
-
+```
 
 Once all of the previous steps have finished successfully, you need to clone Darknet and build it. During this step you also need to tell CMake where the vcpkg is located so it can find OpenCV and other dependencies:
-
 ```
 cd c:\src
 git clone https://github.com/hank-ai/darknet.git
@@ -45,7 +40,6 @@ msbuild.exe "/property:Platform=x64;Configuration=Release" /target:Build -maxCpu
 ```
 
 Add msbuild.exe and darknet to PATH
-
 ```
 setx PATH "%PATH%;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin"
 setx PATH "%PATH%;C:\src\darknet\"
