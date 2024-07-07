@@ -5,10 +5,10 @@ TAILORED FROM https://github.com/hank-ai/darknet/blob/master/README.md#windows-c
 
 In PowerShell (Admin)
 
-`winget install Git.Git` <br>
-`winget install Kitware.CMake` <br>
-`winget install nsis.nsis` <br>
-`winget install Microsoft.VisualStudio.2022.Community` <br>
+```winget install Git.Git
+winget install Kitware.CMake
+winget install nsis.nsis
+winget install Microsoft.VisualStudio.2022.Community```
 
 
 Open Visual Studio Installer and choose `Modify`
