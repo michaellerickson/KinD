@@ -6,7 +6,7 @@ TAILORED FROM https://github.com/hank-ai/darknet/blob/master/README.md#windows-c
 FROM POWERSHELL ADMINISTRATOR
 RUN EACH COMMAND LINE-BY-LINE
 
-`winget install Git.Git`
+`winget install Git.Git` <br>
 `winget install Kitware.CMake`
 `winget install nsis.nsis`
 `winget install Microsoft.VisualStudio.2022.Community`
