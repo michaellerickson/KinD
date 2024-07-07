@@ -1,58 +1,58 @@
 `GAME PLAN`
 
 ```
-Video Processing: OpenCV <br>
-Object Detection: YOLO, SSD <br>
-OCR: Tesseract <br>
-Text Analysis: RegEx, NLTK, SpaCy <br>
-Data Management: Pandas, SQL Databases <br> 
+Video Processing: OpenCV 
+Object Detection: YOLO, SSD 
+OCR: Tesseract 
+Text Analysis: RegEx, NLTK, SpaCy 
+Data Management: Pandas, SQL Databases  
 ```
 
 `Installations:`
 ```
-PowerShell 7.3.6 <br>
-Python 3.11.5 <br>
+PowerShell 7.3.6 
+Python 3.11.5 
 ```
 
 `Python Libraries:`
 ```
-Pytorch <br>
-Numpy <br>
-Tensorflow <br> 
+Pytorch 
+Numpy 
+Tensorflow  
 ```
 
 `Video Processing:`
 ```
-opencv-python | cv2 <br>
+opencv-python | cv2 
 ```
 
 `Object Detection:`
 ```
-YOLO <br>
-SSD <br>
+YOLO 
+SSD 
 ```
 
 `Optical Character Recognition (OCR):`
 ```
-Tesseract <br>
+Tesseract 
 ```
 
 `Text Analysis:`
 ```
-Regular Expressions (RegEx) <br>
-NLTK <br>
-SpaCy <br>
+Regular Expressions (RegEx) 
+NLTK 
+SpaCy 
 ```
 
 `Visualization:`
 ```
-Matplotlib <br>
-Plotly <br>
+Matplotlib 
+Plotly 
 ```
 
 `Data Management:`
 ```
-Pandas <br>
+Pandas 
 ```
 
 `Fixing Dependencies:`
@@ -73,11 +73,11 @@ screeninfo
 
 `Additional Dependencies:`
 ```
-Pipenv <br>
+Pipenv 
 ```
 
 `Check for Vulnerabilities:`
 ```
-pipenv lock <br> 
-pipenv check <br>
+pipenv lock  
+pipenv check 
 ```
