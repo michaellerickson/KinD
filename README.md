@@ -1,5 +1,5 @@
 # kind
-`Kinematic Video Detector Web Crawler "Be KinD, Please Rewind"` <br>
+`Kinematic Video Detector Web Crawler "Be Kind, Please Rewind"` <br>
 `Tailored from https://github.com/hank-ai/darknet/blob/master/README.md#windows-cmake-method`
 
 PowerShell (Admin)
