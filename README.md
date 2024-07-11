@@ -61,4 +61,4 @@ Create the NSIS installation package with this:
 msbuild.exe "/property:Platform=x64;Configuration=Release" PACKAGE.vcxproj
 ```
 
-Always check for `robots.txt` before scanning a domain<br><br>
+Always check and follow `robots.txt` before scanning a domain<br><br>
